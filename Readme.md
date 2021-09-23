@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Дарья](https://up.htmlacademy.ru/htmlcss/32/user/842833).
-* Наставник: `Неизвестно`.
+* Наставник: Владислав Кривокора (https://htmlacademy.ru/profile/krivokora).
 
 ---
 
