@@ -1,0 +1,27 @@
+@font-face {
+}
+  
+@font-face {
+  
+}
+body {
+  background-color: #FEAFC3;
+}
+.advantages {
+  background-image: url("../img/waffle background.png");
+}
+.subscription {
+  background-image: url("../img/mail background.png");
+}
+.blog {
+  background-image: url("../img/background blog.jpg");
+  background-repeat: no-repeat;
+}
+.delivery {
+  background-image: url("../img/background delivery.jpg");
+  background-repeat: no-repeat;
+} 
+.contacts {
+  background-image: url("../img/background contacts.jpg");
+  background-repeat: no-repeat;
+}
