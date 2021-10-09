@@ -1,27 +1,219 @@
 @font-face {
+  font-family:"Inter";
+  font-style: normal;
+  font-weight: 400;
+  scr: url("../fonts/inter-400.woff2") format("woff2");
+  font-display: swap;
 }
   
 @font-face {
-  
+  font-family:"Inter";
+  font-style: normal;
+  font-weight: 700;
+  scr: url("../fonts/inter-700.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family:"Inter";
+  font-style: normal;
+  font-weight: 900;
+  scr: url("../fonts/inter-900.woff2") format("woff2");
+  font-display: swap;
 }
 body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
   background-color: #FEAFC3;
+  color: #2D3440;
 }
+.page_header {
+  line-height: 20px;
+}
+.navigation_link,
+.navigation_user_link,
+.footer_menu_link {
+  color: inherit;
+  text-decoration: none;
+}
+.tel {
+  line-height: 20px;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+}
+.slider_description {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.slider_title {
+  font-weight: 900;
+  font-style: 36px;
+  line-height: 46px;
+}
+.button {
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  background-color: #FCFCFC;
+  color: inherit;
+  border: 4px solid rgba(252, 252, 252, 0.4);
+  box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+  text-decoration: none;
+}
+.stock_heading,
+.catalog_heading,
+.advantages_description {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+}
+.stock_title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+.catalog_title,
+.catalog_price,
+.contacts_adress,
+.contacts_tel {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.catalog_description {
+  text-align: center;
+}
+
 .advantages {
   background-image: url("../img/waffle background.png");
 }
-.subscription {
-  background-image: url("../img/mail background.png");
+.blog_item {
+  line-height: 20px;
 }
 .blog {
   background-image: url("../img/background blog.jpg");
   background-repeat: no-repeat;
 }
+.blog_heading_link {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration: none;
+  color: inherit;
+}
+.subscription {
+  background-image: url("../img/mail background.png");
+}
+.subscription_form__input {
+  width: 332px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #B9B9B9;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.dispatch_button {
+  weight: 152px;
+  height: 44px;
+  background-color: #FF2F64;
+  color: #FCFCFC;
+}
 .delivery {
   background-image: url("../img/background delivery.jpg");
   background-repeat: no-repeat;
 } 
+.delivery_heading {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+}
+.delivery_label {
+  font-weight: 700;
+  line-height: 20px;
+}
+.delivery_form__date,
+.delivery_form__tel,
+.delivery_form__adress {
+  background-color: #FFFFFF;
+  color:#B9B9B9;
+  border: 1px solid #B9B9B9;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
 .contacts {
   background-image: url("../img/background contacts.jpg");
   background-repeat: no-repeat;
+}
+.contacts_heading {
+  font-size: 16px;
+  line-height: 22px;
+}
+.contacts_description {
+  font-style: normal;
+}
+.contacts_tel {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+}
+.contacts_button {
+  font-style: normal;
+  background-color: #FF2F64;
+  color: #FCFCFC;
+  width: 250px;
+  height: 46px;
+}
+.footer_menu_link {
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer_menu_link_item {
+  font-weight: 700;
+}
+.author_link {
+  color: inherit;
+}
+.footer_menu_link_item {
+  font-weight: 700;
+}
+/*catalog*/
+.navigation_link__active {
+  width: 95px;
+  height: 36px;
+  background: #FF4A78;
+  border-radius: 26px;
+}
+.breadcrumbs_link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.catalog_filter_title,
+.control {
+  font-size: 14px;
+  line-height: 20px;
+}
+.catalog_form_button {
+  background: rgba(252, 252, 252, 0.3);
+  border: 2px solid #FCFCFC;
+  border-radius: 20px;
+  color: #2D3440;
+}
+.pagination_link {
+  text-decoration: none;
+  color: inherit;
+}
+.pagination_link__active {
+  background-color: #FCFCFC;
+  color: #2D3440;
+  border-radius: 50px;
 }
