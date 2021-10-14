@@ -27,10 +27,31 @@ body {
   line-height: 22px;
   background-color: #FEAFC3;
   color: #2D3440;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
 }
 .page_header {
+  display: flex;
+  margin: 0 auto;
+  width: 1170px;
   line-height: 20px;
 }
+.logo{
+  margin-right: 32px;
+}
+.navigation {
+  margin-right: auto;
+}
+.navigation_list {
+  width: 400px;
+}
+
 .navigation_link,
 .navigation_user_link,
 .footer_menu_link {
@@ -42,6 +63,11 @@ body {
   font-weight: 700;
   color: inherit;
   text-decoration: none;
+  margin-right: 18px;
+}
+.unique_content {
+  margin: 0 auto;
+  width: 1170px;
 }
 .slider_description {
   font-size: 18px;
@@ -72,10 +98,24 @@ body {
   line-height: 46px;
   text-align: center;
 }
+.stock_item {
+  width: 570px;
+}
 .stock_title {
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
+}
+.stock_list,
+.catalog_list,
+.conteiner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.catalog_item {
+  width: 270px;
 }
 .catalog_title,
 .catalog_price,
@@ -96,6 +136,7 @@ body {
   line-height: 20px;
 }
 .blog {
+  width: 570px;
   background-image: url("../img/background blog.jpg");
   background-repeat: no-repeat;
 }
@@ -107,6 +148,7 @@ body {
   color: inherit;
 }
 .subscription {
+  width: 570px;
   background-image: url("../img/mail background.png");
 }
 .subscription_form__input {
@@ -124,9 +166,17 @@ body {
   color: #FCFCFC;
 }
 .delivery {
+  display: flex;
+  justify-content: space-around;
   background-image: url("../img/background delivery.jpg");
   background-repeat: no-repeat;
 } 
+.conteiner_delivery {
+  width: 271px;
+}
+.delivery_form {
+  width: 500px;
+}
 .delivery_heading {
   font-weight: 900;
   font-size: 32px;
@@ -149,6 +199,9 @@ body {
   background-image: url("../img/background contacts.jpg");
   background-repeat: no-repeat;
 }
+.conteiner_contacts {
+  width: 343px;
+}
 .contacts_heading {
   font-size: 16px;
   line-height: 22px;
@@ -170,6 +223,12 @@ body {
   width: 250px;
   height: 46px;
 }
+.page_footer {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
 .footer_menu_link {
   font-size: 14px;
   line-height: 20px;
@@ -184,6 +243,10 @@ body {
   font-weight: 700;
 }
 /*catalog*/
+.main_catalog {
+  width: 1170px;
+  margin: 0 auto;
+}
 .navigation_link__active {
   width: 95px;
   height: 36px;
