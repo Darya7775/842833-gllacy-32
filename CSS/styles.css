@@ -1259,6 +1259,7 @@ ul, ol, li, p {
 }
 .range_filter_input {
   width: 30px;
+  font-family: "Inter", sans-serif;
   font-weight: inherit;
   color: inherit;
   text-align: center;
@@ -1329,19 +1330,22 @@ ul, ol, li, p {
   height: 15px;
   top: 2px;
   left: 0;
-  border: 1.3px solid #2D3440;
+  border: 1px solid #2D3440;
   border-radius: 2px;
+  cursor: pointer;
 }
 .control_input[type="radio"] + .control_mark {
   border-radius: 50%;
 }
 .control_filter:hover .control_mark {
-  border: 1.3px solid #FCFCFC;
+  border: 1px solid #FCFCFC;
+}
+.control_input:focus + .control_mark {
+  outline: 1px solid #000000;
 }
 .control_input:disabled + .control_mark {
-  border: 1.3px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
-
 .control_input[type="radio"]:checked + .control_mark::before {
   content: "";
   position: absolute;
