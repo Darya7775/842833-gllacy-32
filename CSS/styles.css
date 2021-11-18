@@ -1328,7 +1328,7 @@ ul, ol, li, p {
   position: absolute;
   width: 15px;
   height: 15px;
-  top: 2px;
+  top: 0;
   left: 0;
   border: 1px solid #2D3440;
   border-radius: 2px;
